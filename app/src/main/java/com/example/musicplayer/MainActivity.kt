@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         // Mostramos la interfaz
         setContentView(binding.root)
         mediaPlayer = MediaPlayer.create(this, R.raw.mi_cancion)
-        binding.txtTitulo.text = "🎵 Mi Primer Music Player"
+        binding.txtTitulo.text = "🎵 PandaMusic"
 
         binding.btnPlay.setOnClickListener {
 
